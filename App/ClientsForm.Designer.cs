@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dg_clients = new System.Windows.Forms.DataGridView();
             this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Pays = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_clients)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dg_clients
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dg_clients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dg_clients.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nom,
             this.Prenom,
             this.Pays});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(344, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.dg_clients.Location = new System.Drawing.Point(12, 12);
+            this.dg_clients.Name = "dg_clients";
+            this.dg_clients.Size = new System.Drawing.Size(344, 150);
+            this.dg_clients.TabIndex = 0;
             // 
             // Nom
             // 
@@ -70,17 +70,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 171);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dg_clients);
             this.Name = "ClientsForm";
             this.Text = "Gestion des clients";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_clients)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dg_clients;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nom;
         private System.Windows.Forms.DataGridViewTextBoxColumn Prenom;
         private System.Windows.Forms.DataGridViewTextBoxColumn Pays;

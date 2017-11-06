@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dg_reserv = new System.Windows.Forms.DataGridView();
             this.Client = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Chambre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DateArrivee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DateDepart = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_reserv)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dg_reserv
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dg_reserv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dg_reserv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Client,
             this.Chambre,
             this.DateArrivee,
             this.DateDepart});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(492, 182);
-            this.dataGridView1.TabIndex = 0;
+            this.dg_reserv.Location = new System.Drawing.Point(12, 12);
+            this.dg_reserv.Name = "dg_reserv";
+            this.dg_reserv.Size = new System.Drawing.Size(492, 182);
+            this.dg_reserv.TabIndex = 0;
             // 
             // Client
             // 
@@ -78,17 +78,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 210);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dg_reserv);
             this.Name = "ReservationsForm";
             this.Text = "Gestion des réservations";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_reserv)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dg_reserv;
         private System.Windows.Forms.DataGridViewTextBoxColumn Client;
         private System.Windows.Forms.DataGridViewTextBoxColumn Chambre;
         private System.Windows.Forms.DataGridViewTextBoxColumn DateArrivee;
