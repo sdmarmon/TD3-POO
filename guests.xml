@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Guest>
+    <LastName>Martin</LastName>
+    <FirstName>Matt</FirstName>
+    <Country>Québec</Country>
+  </Guest>
+  <Guest>
+    <LastName>Dupont</LastName>
+    <FirstName>Jacques</FirstName>
+    <Country>France</Country>
+  </Guest>
+  <Guest>
+    <LastName>Leblanc</LastName>
+    <FirstName>Jean</FirstName>
+    <Country>Belgique</Country>
+  </Guest>
+</ArrayOfGuest>
