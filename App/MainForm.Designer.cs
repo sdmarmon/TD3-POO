@@ -41,7 +41,7 @@
             this.btn_clients.TabIndex = 0;
             this.btn_clients.Text = "Clients";
             this.btn_clients.UseVisualStyleBackColor = true;
-            this.btn_clients.Click += new System.EventHandler(this.button1_Click);
+            this.btn_clients.Click += new System.EventHandler(this.btn_clients_Click);
             // 
             // btn_chambres
             // 
@@ -51,6 +51,7 @@
             this.btn_chambres.TabIndex = 1;
             this.btn_chambres.Text = "Chambres";
             this.btn_chambres.UseVisualStyleBackColor = true;
+            this.btn_chambres.Click += new System.EventHandler(this.btn_chambres_Click);
             // 
             // btn_reservations
             // 
@@ -60,6 +61,7 @@
             this.btn_reservations.TabIndex = 2;
             this.btn_reservations.Text = "Réservations";
             this.btn_reservations.UseVisualStyleBackColor = true;
+            this.btn_reservations.Click += new System.EventHandler(this.btn_reservations_Click);
             // 
             // MainForm
             // 
