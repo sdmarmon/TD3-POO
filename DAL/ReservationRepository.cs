@@ -20,7 +20,7 @@ namespace DAL
             if (File.Exists(filePath))
             {
                 StreamReader reader = new StreamReader(filePath);
-                reservationList = (List<Reservation>)new XmlSerializer(typeof(List<Room>)).Deserialize(reader);
+                reservationList = (List<Reservation>)new XmlSerializer(typeof(List<Reservation>)).Deserialize(reader);
                 reader.Close();
             }
             else

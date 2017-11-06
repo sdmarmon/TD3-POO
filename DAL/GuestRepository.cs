@@ -21,7 +21,7 @@ namespace DAL
             if (File.Exists(filePath))
             {
                 StreamReader reader = new StreamReader(filePath);
-                guestList = (List<Guest>)new XmlSerializer(typeof(List<Room>)).Deserialize(reader);
+                guestList = (List<Guest>)new XmlSerializer(typeof(List<Guest>)).Deserialize(reader);
                 reader.Close();
             }
             else
