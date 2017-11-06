@@ -9,7 +9,7 @@ using Domain;
 
 namespace DAL
 {
-    class RoomRepository : IRoomRepository
+    public class RoomRepository : IRoomRepository
     {
         private List<Room> roomList;
         private string filePath;

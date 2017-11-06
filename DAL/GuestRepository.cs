@@ -10,7 +10,7 @@ using Domain;
 
 namespace DAL
 {
-    class GuestRepository : IGuestRepository
+    public class GuestRepository : IGuestRepository
     {
         private List<Guest> guestList;
         private string filePath;

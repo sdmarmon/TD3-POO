@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Domain;
+using DAL;
 
 namespace App
 {
@@ -14,6 +16,12 @@ namespace App
         public ClientsForm()
         {
             InitializeComponent();
+            GuestRepository guestRepo = new GuestRepository();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
 

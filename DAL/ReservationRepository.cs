@@ -9,7 +9,7 @@ using Domain;
 
 namespace DAL
 {
-    class ReservationRepository : IReservationRepository
+    public class ReservationRepository : IReservationRepository
     {
         private List<Reservation> reservationList;
         private string filePath;
